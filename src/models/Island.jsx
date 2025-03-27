@@ -26,8 +26,6 @@ const Island = (props) => {
         scale={1.029}
       />
       <mesh
-        
-        
         geometry={nodes['Circle003_Material_#109_0'].geometry}
         material={materials.Material_109}
         position={[-1197.441, -12.129, 763.694]}
