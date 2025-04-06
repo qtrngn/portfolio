@@ -82,7 +82,7 @@ const Home = () => {
           <OrbitControls
             enableZoom={true} // Enabled zoom
             zoomSpeed={0.6} // Adjust zoom sensitivity
-            minDistance={1000} // Minimum zoom distance
+            minDistance={16600} // Minimum zoom distance
             maxDistance={100000}
             target={[0, 0, 0]} // Maximum zoom distance
             enablePan={true}

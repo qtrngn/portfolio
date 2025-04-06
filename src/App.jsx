@@ -1,11 +1,13 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import Navbar from './components/Navbar';
-import  { Home, About, Projects, Contact} from './pages';
-
+import Navbar from "./components/Navbar";
+import { Home, About, Projects, Contact } from "./pages";
 
 const App = () => {
   return (
-    <main className="bg-slate-300/20">
+    <div className="relative min-h-screen">
+      {/* Background overlay */}
+      <div className="absolute inset-0 bg-black/60 z-0"></div>
+      <main className="relative z-10">
         <Router>
           <Navbar />
           <Routes>
@@ -15,7 +17,8 @@ const App = () => {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </Router>
-    </main>
+      </main>
+    </div>
   );
 };
 

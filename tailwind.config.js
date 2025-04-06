@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        'phone-sm': '360px',  // Small phones
+        'phone-md': '375px',  // iPhone 12 Mini, iPhone SE
+        'phone-lg': '440px',  // iPhone 14 Pro Max, Pixel 7 Pro
+      },
       colors: {
         gray: {
           200: "#D5DAE1"
