@@ -14,11 +14,6 @@ const Projects = () => {
           Projects
         </span>
       </h1>
-      <div className="mt-5 flex flex-col gap-3 text-white">
-        <p>
-        My portfolio features projects where I’ve turned ideas into visually appealing and well-crafted experiences. It’s all about creating designs that feel seamless and coding that keeps everything running smoothly.
-        </p>
-      </div>
       <div className="flex flex-wrap my-20 gap-16">
         {projects.map((project) => (
           <div className="lg:w-[400px] w-full" key={project.name}>

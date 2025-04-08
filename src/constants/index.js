@@ -76,6 +76,8 @@ export const experiences = [
         date: "Jan 2016 - Jan 2017",
         points: [
             "Supporting administrative tasks.",
+            "Supporting marketing staffs during events.",
+            "Collecting customer's feedbacks to improve the quality of services.",
         ],
     },
 
@@ -87,6 +89,9 @@ export const experiences = [
         date: "July 2021 - Dec 2021",
         points: [
             "Assisting with event preparation, set up and closing",
+            "Prepare the venue for the event/banquets as planned by the event coordinator",
+            "Provide service to the guests during events to ensure their satisfaction",
+            "Direct guests to necessary services and features as requested",            
         ],
     },
 
@@ -98,6 +103,8 @@ export const experiences = [
         date: "Sep 2023 - Dec 2023",
         points: [
             "Understanding customer's need and providing recommendations",
+            "Help customers checkout their items.",
+            "Organize/update the store merchandise and storage to meet the expectations of the corporate office",
         ],
     },
 ];
@@ -125,14 +132,14 @@ export const projects = [
         iconUrl: netflix,
         theme: 'btn-back-black',
         name: 'Netflix Clone',
-        description: 'This project aims to build a Netflix clone landing page using React JS, focusing exclusively on the front-end design without backend integration.',
+        description: 'This project aimed to build a Netflix clone landing page using React JS, focusing exclusively on the front-end design without backend integration.',
         link: 'https://netflixclone-landingpage.trucquynhng.com/',
     },
     {
         iconUrl: picasso,
         theme: 'btn-back-pink',
         name: 'Portfolio website',
-        description: 'This project aimed to understand the fundamental principles of HTML and CSS by building a three-pages portfolio website showcasing the work of artist Pablo Picasso.',
+        description: 'This project focused on learning the basics of HTML and CSS by building a three-page portfolio website showcasing the work of Pablo Picasso ',
         link: 'http://finalproject.quynhtrucng.com/',
     },
     {

@@ -43,7 +43,7 @@ const About = () => {
         <h3 className="subhead-text purple-gradient_text">Work Experience</h3>
         <div className="mt-5 flex flex-col gap-3 text-white">
           <p>
-          I come from a hospitality background where I learned how to work well under pressure, adapt quickly, and collaborate with all kinds of people. It taught me problem-solving,and always prioritize the customer’s experience. Now, I’m applying those same skills to build websites.
+          I come from a hospitality background, where I learned to work under pressure, adapt quickly, and collaborate with all kinds of people. Those experiences taught me problem-solving and how to prioritize user experience. Now, I’m excited to bring those skills into web development and can’t wait to gain real-world experience as a front-end developer.
           </p>
         </div>
         <div className="mt-12 flex">
