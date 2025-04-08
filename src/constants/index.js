@@ -126,14 +126,14 @@ export const projects = [
         theme: 'btn-back-black',
         name: 'Netflix Clone',
         description: 'This project aims to build a Netflix clone landing page using React JS, focusing exclusively on the front-end design without backend integration.',
-        link: 'netflixclone-landingpage.trucquynhng.com',
+        link: 'https://netflixclone-landingpage.trucquynhng.com/',
     },
     {
         iconUrl: picasso,
         theme: 'btn-back-pink',
         name: 'Portfolio website',
         description: 'This project aimed to understand the fundamental principles of HTML and CSS by building a three-pages portfolio website showcasing the work of artist Pablo Picasso.',
-        link: 'termproject.quynhtrucng.com',
+        link: 'http://finalproject.quynhtrucng.com/',
     },
     {
         iconUrl: restaurant,
