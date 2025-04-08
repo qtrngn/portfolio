@@ -14,7 +14,14 @@ import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import muji from './muji.png'
 import saigon from './saigon.png'
-import vc from './vc.jpg'
+import vc from './vc.png'
+import netflix from './netflix.png'
+import picasso from './picasso.png'
+import restaurant from './restaurant.png'
+import petsmart from './petsmart.png'
+
+
+
 
 export {
     css,
@@ -33,5 +40,9 @@ export {
     soundoff,
     muji,
     saigon,
-    vc
+    vc,
+    netflix,
+    picasso,
+    restaurant,
+    petsmart
 }
