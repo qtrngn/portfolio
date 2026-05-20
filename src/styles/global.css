@@ -1,13 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Space+Grotesk:wght@300..700&display=swap");
 @import "tailwindcss";
 
+@custom-variant dark (&:is(.dark *));
+
 :root {
   --font-display: "Space Grotesk", sans-serif;
   --font-heading: "Space Grotesk", sans-serif;
   --font-body: "Inter", sans-serif;
   --font-mono: "JetBrains Mono", monospace;
 
-  --color-accent: #b026ff;
+  --color-accent: #ff67b3;
   --color-background: #0a0a0a;
   --color-bg-zero: #0a0a0a;
   --color-border: #242424;
@@ -147,76 +149,76 @@
     .bg-accent {
       background-color: var(--color-accent);
     }
-  
+
     .bg-background {
       background-color: var(--color-background);
     }
-  
+
     .bg-surface {
       background-color: var(--color-surface);
     }
-  
+
     .bg-bg-zero {
       background-color: var(--color-bg-zero);
     }
-  
+
     /* =========================
        Text colors
     ========================= */
     .text-accent {
       color: var(--color-accent);
     }
-  
+
     .text-bg-zero {
       color: var(--color-bg-zero);
     }
-  
+
     .text-text-primary {
       color: var(--color-text-primary);
     }
-  
+
     .text-text-secondary {
       color: var(--color-text-secondary);
     }
-  
+
     .text-text-muted {
       color: var(--color-text-muted);
     }
-  
+
     /* =========================
        Border colors
     ========================= */
     .border-accent {
       border-color: var(--color-accent);
     }
-  
+
     .border-custom {
       border-color: var(--color-border);
     }
-  
+
     .border-line-blue {
       border-color: var(--color-line-blue);
     }
-  
+
     /* =========================
        Error states
     ========================= */
     .text-error {
       color: var(--color-error);
     }
-  
+
     .bg-error {
       background-color: var(--color-error);
     }
-  
+
     .bg-error-surface {
       background-color: var(--color-error-surface);
     }
-  
+
     .border-error {
       border-color: var(--color-error);
     }
-  
+
     /* =========================
        Decorative backgrounds
     ========================= */
@@ -224,28 +226,49 @@
       background-image: radial-gradient(var(--color-border) 1px, transparent 1px);
       background-size: 5px 5px;
     }
-  
+
     .bg-linear-accent {
       background: linear-gradient(90deg, var(--color-accent), transparent);
     }
-  
+
     .bg-conic-accent {
       background: conic-gradient(from 180deg, var(--color-accent), transparent, var(--color-accent));
     }
-  
+
     /* =========================
        Hover helpers
     ========================= */
     .hover-text-accent:hover {
       color: var(--color-accent);
     }
-  
+
     .hover-bg-accent:hover {
       background-color: var(--color-accent);
     }
-  
+
     .hover-border-accent:hover {
       border-color: var(--color-accent);
+    }
+  }
+}
+
+@theme inline {
+  --animate-marquee: marquee var(--duration) infinite linear;
+  --animate-marquee-vertical: marquee-vertical var(--duration) linear infinite;
+  @keyframes marquee {
+  from {
+    transform: translateX(0);
+    }
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+    }
+  }
+  @keyframes marquee-vertical {
+  from {
+    transform: translateY(0);
+    }
+  to {
+    transform: translateY(calc(-100% - var(--gap)));
     }
   }
 }

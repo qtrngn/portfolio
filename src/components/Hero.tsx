@@ -3,10 +3,10 @@ import profileImage from "@/assets/hero.jpg";
 
 export default function HeroSection() {
     return (
-        <section id="home" className="min-h-screen bg-background bg-dot-grid px-6 text-text-primary md:px-10 lg:px-16">
+        <section id="home" className="min-h-screen bg-background bg-dot-grid px-6 text-primary md:px-10 lg:px-16">
             <div className="mx-auto grid min-h-[calc(100vh-7rem)] max-w-5xl grid-cols-1 items-center lg:grid-cols-[1.2fr_0.8fr]">
                 <div>
-                    <p className="text-mono-caps text-text-muted ml-2">Portfolio — 2026</p>
+                    <p className="text-mono-caps text-muted ml-2">Portfolio — 2026</p>
 
                     {/* Left side content */}
                     <div className="mt-20">
@@ -20,8 +20,8 @@ export default function HeroSection() {
                     </div>
 
                     <div className="mt-10 border-t border-dashed border-custom pt-8 ml-2">
-                        <p className="max-w-xl text-body text-text-secondary">
-                            Full-stack developer <span className="text-accent">based in Vancouver.</span>
+                        <p className="max-w-xl text-body text-secondary">
+                            Full-stack developer <span className="text-accent font-bold">based in Vancouver.</span> <br/>
                             Building applications with scalable backend services, responsive frontend interfaces, database systems, authentication, and deployment workflows. Focused on clean architecture, maintainable code, and system reliability.
                         </p>
                     </div>
@@ -38,7 +38,7 @@ export default function HeroSection() {
                             Available to work
                         </p>
 
-                        <p className="text-mono text-text-primary">
+                        <p className="text-mono text-primary">
                             Vancouver / Canada
                         </p>
 
